@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: rgb(29, 187, 187);
+}
+#input-section>input,#input-section>button{
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.lists{
+   margin: 20px;
+   font-size: 30px;
+   list-style: none;
+}
+.lists>button{
+   font-size: 20px;
+   margin-left: 10px;
+}
+.lists>span{
+    margin-left: 300px;
+}
