@@ -38,10 +38,10 @@ function Todoapp() {
           {task.map((item, index) => (
             <li key={index} className="lists">
               {item.text}
-              <span> {item.date}</span>{" "}
+               <div><span id="date">{item.date}</span>
               <button className="button" onClick={() => deleteTask(index)}>
                 Delete
-              </button>
+              </button></div>
             </li>
           ))}
         </ul>
