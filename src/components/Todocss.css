@@ -1,11 +1,16 @@
 body{
     text-align: center;
     background-color: rgb(29, 187, 187);
+    width: 800px;
+    margin: auto;
 }
 #input-section>input,#input-section>button{
     margin: 10px;
     font-size: 20px;
     padding: 5px;
+}
+.button{
+    font-size:25px;
 }
 .lists{
     display: flex;
@@ -15,10 +20,7 @@ body{
    font-size: 30px;
    list-style: none;
 }
-.lists>button{
-   font-size: 20px;
-   margin-left: 10px;
-}
+
 .lists>div{
    display: flex;
 }
